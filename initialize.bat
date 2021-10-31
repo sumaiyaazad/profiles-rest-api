@@ -10,5 +10,6 @@ django-admin startproject profiles_project .
 @REM python manage.py test
 @REM python manage.py startapp profiles_api
 @REM if we change the model we need to run the migrations again
-@REM python manage.py makemigrations core
+@REM python manage.py makemigrations profiles_api
+@REM python manage.py migrate
 cd app
